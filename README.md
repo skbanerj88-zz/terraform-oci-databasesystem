@@ -48,10 +48,9 @@ module "Dev" {
 **Important** - Above values for each of the variables are just examples. Make sure you update each of the variables as per your requirements.
 
 ## Flow
+```
 source ./sampleENV.sh
-
 terraform init
-
 terraform plan
-
 terraform apply
+```
