@@ -49,6 +49,9 @@ module "Dev" {
 
 ## Flow
 source ./sampleENV.sh
+
 terraform init
+
 terraform plan
+
 terraform apply
